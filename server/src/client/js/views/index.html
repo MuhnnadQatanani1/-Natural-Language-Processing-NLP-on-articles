@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NLP Article Analyzer</title>
+  </head>
+  <body>
+    <header>
+      <h1>Welcome to the NLP Article Analyzer</h1>
+    </header>
+    <main>
+      <form onsubmit="return Client.handleSubmit(event)">
+        <label for="name">Enter the text you want to analyze:</label>
+        <input id="name" type="text" name="input" required>
+        <button type="submit">Submit</button>
+      </form>
+      <section>
+        <strong>Analysis Result:</strong>
+        <div id="results"></div>
+      </section>
+    </main>
+    <footer>
+      <p>Built with love by <a href="https://github.com/yourusername">Your Name</a></p>
+    </footer>
+  </body>
+</html>
